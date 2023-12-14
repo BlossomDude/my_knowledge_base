@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Скрипт выводит список команд \
+# которые выполняются вводом цифры.
+
 echo ""
 echo "Select the command number to check the system:"
 echo ""
