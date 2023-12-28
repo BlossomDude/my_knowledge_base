@@ -1,0 +1,2 @@
+# Удаляет 
+Get-TSSession -ComputerName Work-PC -filter {$_.sessionID -ne 0 -AND $_.sessionID -ne 1 -AND $_.sessionID -ne 65536}| Stop-TSSession -Force
